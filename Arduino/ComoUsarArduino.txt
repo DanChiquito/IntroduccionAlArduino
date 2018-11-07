@@ -1,0 +1,29 @@
+Los puertos  con la tilde de la eñe nos entregan y lo maximo que pueden soportar son 5 volts
+
+Tx 
+Rx
+
+Lado izquierdo (Entradas analogicas)
+puedes tener entradas "senoidales" aunque se ven un poco feas por la capacidad de arduino
+
+Gnd - TIERRAS
+5V - ALIMENTACION CONTINUA
+Vin - se puede conectar un pila de 9 volts para darle energia a Arduino sin necesidad de un cable
+
+
+
+LOCALIZAR DONDE SE CONECTO ARDUINO: botonWINDOWS + botonPausa >Admistrador de dispositivos > PuertosCOM 
+
+HERRAMIENTAS
+tipo de arduino que estamos seleccionando se ve en "PLACA"
+
+
+PROGRAMACION
+VOID SETUP() - como quieres que se comporten los puertos
+
+VOID LOOP() -  es un While
+
+VERIFICAR - Sirve para compilar la solucion o el programa
+
+SUBIR - Se ejecuta el programa a Arduino 
+NOTA : SI HAY FALLAS DESCONECTA Y VUELVE A CONECTAR
